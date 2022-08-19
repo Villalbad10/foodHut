@@ -1,0 +1,60 @@
+{
+    "productos": [
+        {
+            "id": 1,
+            "image": "https://res.cloudinary.com/villalbad10/image/upload/v1653091972/restaurant/Group_8448_1_c0raxj.png",
+            "title": "Pinchitos de cerdo",
+            "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "caregory": "lunch"
+        },
+        {
+            "id": 2,
+            "image": "https://res.cloudinary.com/villalbad10/image/upload/v1653091972/restaurant/Group_8448_db0qw1.png",
+            "title": "Pizza",
+            "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "caregory": "dinner"
+        },
+        {
+            "id": 3,
+            "image": "https://res.cloudinary.com/villalbad10/image/upload/v1653091972/restaurant/Group_8448_7_cdmxn8.png",
+            "title": "Sanwich",
+            "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "caregory": "breackfast"
+        },
+        {
+            "id": 4,
+            "image": "https://res.cloudinary.com/villalbad10/image/upload/v1653091972/restaurant/Group_8448_6_shjwbp.png",
+            "title": "Ensalada campestre",
+            "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "caregory": "drinks"
+        },
+        {
+            "id": 5,
+            "image": "https://res.cloudinary.com/villalbad10/image/upload/v1653091972/restaurant/Group_8448_2_q8nkym.png",
+            "title": "Hamburguesa doble",
+            "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "caregory": "lunch"
+        },
+        {
+            "id": 6,
+            "image": "https://res.cloudinary.com/villalbad10/image/upload/v1653091972/restaurant/Group_8448_5_unblsy.png",
+            "title": "Hamburguesa Simple",
+            "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "caregory": "dinner"
+        },
+        {
+            "id": 7,
+            "image": "https://res.cloudinary.com/villalbad10/image/upload/v1653091972/restaurant/Group_8448_4_nwc1gm.png",
+            "title": "Lomo",
+            "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "caregory": "lunch"
+        },
+        {
+            "id": 8,
+            "image": "https://res.cloudinary.com/villalbad10/image/upload/v1653091972/restaurant/Group_8448_3_lui9zn.png",
+            "title": "Pasta",
+            "description": " Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "caregory": "lunch"
+        }
+    ]
+}

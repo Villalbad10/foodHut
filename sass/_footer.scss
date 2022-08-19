@@ -1,0 +1,49 @@
+$Black: #191919;
+$Salmon: #F54748;
+$Yellow: #FDC55E;
+$White: #FFFFFF;
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin: 0rem 5%;
+    margin-bottom: 1rem;
+
+    h3 {
+        color: $Salmon;
+        font-size: 1.2rem;
+        margin-bottom: 1rem;
+    }
+
+    span {
+        margin-top: 1rem;
+    }
+
+    p {
+        margin-top: 1rem;
+        width: 15rem;
+    }
+
+    img {
+        margin-top: 1rem;
+        width: 7rem;
+    }
+
+    input {
+        background-color: #d1d1d1;
+        height: 2.5rem;
+        border-radius: 1.5rem;
+        border: none;
+        margin-top: 1.5rem;
+    }
+
+    button {
+        background-color: $Salmon;
+        color: white;
+        padding: .6rem;
+        border: 1px solid $Salmon;
+        border-radius: 1rem;
+        cursor: pointer;
+    }
+}

@@ -1,0 +1,141 @@
+$Black: #191919;
+$Salmon: #F54748;
+$Yellow: #FDC55E;
+$White: #FFFFFF;
+
+.servicios {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2rem;
+
+    .chef {
+        img {
+            width: 30rem;
+        }
+    }
+
+
+    .descripcion {
+        margin-left: 0.5rem;
+        h2 {
+            margin-top: 7rem;
+            font-size: 3rem;
+            width: 85%;
+
+            .rojo {
+                color: $Salmon;
+            }
+
+            .amarillo {
+                color: $Yellow;
+            }
+        }
+
+        p {
+            margin-top: 1.5rem;
+            opacity: 0.6;
+            width: 90%;
+        }
+
+        .servi {
+            display: flex;
+            flex-wrap: wrap;
+
+            div {
+                margin-top: 1rem;
+                display: flex;
+                align-items: center;
+            }
+
+            img {
+                margin-right: .5rem;
+                width: 2rem;
+            }
+
+            span {
+                margin-right: 8rem;
+            }
+        }
+
+        button {
+            color: $White;
+            cursor: pointer;
+            margin-top: 1rem;
+            background-color: $Salmon;
+            border: 1px solid $Salmon;
+            border-radius: 1rem;
+            padding: 0.5rem;
+        }
+    }
+}
+
+@media (min-width: 900px){
+    .servicios {
+        display: flex;
+        flex-wrap: wrap;
+        margin-top: 2rem;
+    
+        .chef {
+            img {
+                width: 30rem;
+            }
+        }
+    
+    
+        .descripcion {
+            margin-left: 4em;
+            width: 50%;
+    
+            h2 {
+                margin-top: 7rem;
+                font-size: 3rem;
+                width: 85%;
+    
+                .rojo {
+                    color: $Salmon;
+                }
+    
+                .amarillo {
+                    color: $Yellow;
+                }
+            }
+    
+            p {
+                margin-top: 1.5rem;
+                opacity: 0.6;
+                width: 90%;
+            }
+    
+            .servi {
+                display: flex;
+                flex-wrap: wrap;
+    
+                div {
+                    margin-top: 1rem;
+                    display: flex;
+                    align-items: center;
+                }
+    
+                img {
+                    margin-right: .5rem;
+                    width: 2rem;
+                }
+    
+                span {
+                    margin-right: 8rem;
+                }
+            }
+    
+            button {
+                color: $White;
+                cursor: pointer;
+                margin-top: 1rem;
+                background-color: $Salmon;
+                border: 1px solid $Salmon;
+                border-radius: 1rem;
+                padding: 0.5rem;
+            }
+        }
+    }
+     
+}

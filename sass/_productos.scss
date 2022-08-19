@@ -1,0 +1,148 @@
+$Black: #191919;
+$Salmon: #F54748;
+$Yellow: #FDC55E;
+$White: #FFFFFF;
+
+.tienda {
+    text-align: center;
+
+    h2 {
+        margin: 0 auto;
+        font-size: 2rem;
+
+        .rojo {
+            color: $Salmon;
+        }
+
+        .amarillo {
+            color: $Yellow;
+        }
+    }
+
+    .categorias {
+        margin-bottom: 2rem;
+
+        button {
+            margin-top: 0.5rem;
+            border: 1px solid #818181;
+            cursor: pointer;
+            color: #818181;
+            border-radius: 1rem;
+            padding: .4rem;
+            margin-right: 1.5rem;
+        }
+
+        .active {
+            background-color: $Salmon;
+            margin-top: 0.5rem;
+            border: 1px solid $Salmon;
+            cursor: pointer;
+            color: white;
+            border-radius: 1rem;
+            padding: .4rem;
+            margin-right: 1.5rem;
+        }
+
+        button:hover {
+            background-color: $Salmon;
+            color: white;
+            border-radius: 1rem;
+            border: 1px solid $Salmon;
+            padding: .4rem;
+        }
+    }
+
+    .comidas {
+        display: flex;
+        flex-wrap: wrap;
+        .tarjet {
+            border-radius: .5rem;
+            margin-right: 8rem;
+            margin: 5rem 5%;
+            background: linear-gradient(to top, rgb(247, 209, 205), rgba(255, 255, 255, 0.164));
+            width: 11.7rem;
+
+            .comid {
+                margin-top: -4.7rem;
+                width: 12rem;
+            }
+
+            .detalle {
+                display: flex;
+                justify-content: center;
+
+                .user {
+                    width: 3rem;
+                }
+
+                .sta {
+                    width: 1.5rem;
+                }
+
+                display: flex;
+            }
+
+            h3 {
+                margin-left: .5rem;
+                color: $Salmon;
+                margin-top: 1.5rem;
+                margin-bottom: 1rem;
+            }
+
+            P {
+                margin-left: .2rem;
+                margin-bottom: 1rem;
+                opacity: 0.6;
+            }
+
+            button {
+                color: white;
+                cursor: pointer;
+                border-radius: 1rem;
+                background-color: $Salmon;
+                border: 1px solid $Salmon;
+                padding: .5rem;
+                margin-bottom: -1em;
+            }
+
+        }
+    }
+}
+
+
+@media (min-width: 900px) {
+
+    .tienda {
+        text-align: center;
+        margin-top: 6rem;
+
+        h2 {
+            margin: 2rem auto;
+            width: 35%;
+            font-size: 2rem;
+
+            .rojo {
+                color: $Salmon;
+            }
+
+            .amarillo {
+                color: $Yellow;
+            }
+        }
+
+        .categorias {
+            margin-bottom: 2rem;
+
+            button {
+                background-color: white;
+                border: .1rem solid #818181;
+                cursor: pointer;
+                color: #818181;
+                border-radius: 1rem;
+                padding: .4rem;
+                margin-right: 1.5rem;
+            }
+        }
+
+    }
+}

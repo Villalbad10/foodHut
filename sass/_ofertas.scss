@@ -1,0 +1,110 @@
+$Black: #191919;
+$Salmon: #F54748;
+$Yellow: #FDC55E;
+$White: #FFFFFF;
+
+
+.ofertas {
+    margin-top: 5rem;
+    text-align: center;
+
+    .tituloOferta {
+        h2 {
+            font-size: 2.5rem;
+        }
+
+        .tituloRojo {
+            color: $Salmon;
+        }
+
+        p {
+            text-align: center;
+            opacity: 0.6;
+            margin-bottom: 3rem;
+            margin-top: 1rem;
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+    }
+
+    .productos {
+        display: flex;
+        flex-wrap: wrap;
+
+        .tarjeta {
+            border-radius: .5rem;
+            margin-right: 8rem;
+            margin: 5rem auto;
+            background: linear-gradient(to top, rgb(247, 209, 205), rgba(255, 255, 255, 0.164));
+            width: 11.7rem;
+
+            .comida {
+                margin-top: -4.5rem;
+                width: 12rem;
+            }
+
+            .detalles {
+                display: flex;
+                justify-content: center;
+                .users {
+                    width: 3rem;
+                }
+
+                .star {
+                    width: 1.5rem;
+                }
+
+                display: flex;
+            }
+
+            h3 {
+                margin-left: .5rem;
+                color: $Salmon;
+                margin-top: 1.5rem;
+                margin-bottom: 1rem;
+            }
+
+            P {
+                margin-left: .2rem;
+                margin-bottom: 1rem;
+                opacity: 0.7;
+            }
+
+            button {
+                color: white;
+                cursor: pointer;
+                border-radius: 1rem;
+                background-color: $Salmon;
+                border: 1px solid $Salmon;
+                padding: .5rem;
+                margin-bottom: -1rem;
+            }
+
+        }
+    }
+}
+
+@media (min-width: 900px) {
+    .ofertas {
+        margin-top: 5rem;
+        text-align: center;
+
+        .tituloOferta {
+            h2 {
+                font-size: 2.5rem;
+            }
+
+            .tituloRojo {
+                color: $Salmon;
+            }
+
+            p {
+                text-align: center;
+                opacity: 0.6;
+                margin-top: 1rem;
+                margin-left: 25%;
+                margin-right: 25%;
+            }
+        }
+    }
+}
